@@ -1,0 +1,39 @@
+/* 작성 후 터미널에
+1. tsc src/index.ts
+2. node src/index.js
+를 입력하시면 확인할 수 있습니다. */
+/* boolean형 */
+var isDone = false;
+var isShow = true;
+console.log(isDone);
+console.log(isShow);
+/* 숫자형 */
+var num1 = 7;
+var num2 = 0.6878;
+console.log(num1);
+console.log(num2);
+/* 문자형 */
+var str = 'hello';
+console.log(str);
+/* 숫자형 배열의 타입을 정하는 2가지 방법 */
+var list1 = [1, 2, 3];
+var list2 = [1, 2, 3];
+console.log(list1);
+console.log(list2);
+/* 문자형 배열의 타입을 정하는 2가지 방법 */
+var list3 = ['banana', 'apple', 'mango'];
+var list4 = ['banana', 'apple', 'mango'];
+console.log(list3);
+console.log(list4);
+/* 튜플 */
+var list5 = [1, 'banana', true];
+console.log(list5);
+/* 객체형 타입을 정하는 2가지 방법 */
+var obj = {};
+var obj2 = {
+    name: 'kimcoding',
+    age: 20,
+    isDeveloper: true,
+};
+console.log(obj);
+console.log(obj2);
